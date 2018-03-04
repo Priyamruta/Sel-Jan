@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" name="Suite" parallel="classes">
+  <test thread-count="8" name="Test" parallel="classes">
+    <classes>
+      <class name="testNG_Learn.Create_Lead_inter_threadcount"/>
+      <class name="testNG_Learn.MergeLeadInter_tC"/>
+      <class name="testNG_Learn.EditLead_tC"/>
+      <class name="testNG_Learn.DeleteLead_tC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
